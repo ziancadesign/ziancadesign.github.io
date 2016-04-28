@@ -259,5 +259,78 @@ a:hover {
     padding-right: 1%;
 }
 
+@media only screen and (max-width: 1258px) {
+ h1 {
+  font-size: 1em;
+ }
+ .logo {
+    margin: auto;
+    width: 30%;
+    padding: 2%;
+ }
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:2%;
+}
+ nav a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align:right;
+    font-size: .5em;
+    padding-right:2%;
+ }
+ footer {
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: .75em;
+    text-align: center;
+ }
+}
+
+@media only screen and (max-width: 400px) {
+#services a{
+  font-size: ..25em;
+  float: none;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:4%; 
+    width:50%;
+ }
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:4%;
+}
+ nav a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align:right;
+    font-size: .5em;
+ }
+ footer a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align:center;
+    font-size: .75em;
+ }
+ h1 {
+  font-size: .6em;
+ }
+ .designservices {
+    padding: .1%; 
+ }
+.flats {
+    padding: .1%;
+ }
+}
 
 
