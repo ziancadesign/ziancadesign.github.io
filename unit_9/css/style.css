@@ -162,7 +162,6 @@ a:hover {
 }
 
 #patternshop a{
-    margin-top:10%;
     float:left;
     font-size: .75em;
     margin: 1%;
@@ -343,6 +342,15 @@ nav {
     margin-top: 1%;
 }
 
+#patternshop {
+    height: 43em;
+}
+
+#patternshop a {
+    width: 31.33%;
+    padding-top: 1%;
+}
+
 #aboutbianca {
     background-color: rgba(185,224,247,.3);
     height: 28em;
@@ -373,6 +381,7 @@ nav {
  h1 {
   font-size: .5em;
  }
+
  .designservices {
     padding: .1%; 
  }
