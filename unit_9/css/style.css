@@ -7,44 +7,49 @@ body {
 	color: #605A5B;
 	font-family: 'Khula', sans-serif;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+
+header {
+    margin: .5%
+    padding: 2%;
 }
 
 nav {
-	font-size: .75em;
-	padding-top: 5%;
-	padding-left: 2%;
-    padding: 2%;
+	font-size: .8em;
+    padding-top: 2.8%;
     width: 100%;
+    padding-left: 2%;
 }
 
 nav a {
-	margin-right: 1%;
-	padding-left: 1%;
+	padding: 1%;
 }
 
-h1, h2 {
+h1 {
 	font-family: 'Fauna One', serif;
 	margin-top: 1%;
     margin-bottom: 1%;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-weight: 300;
-    padding-top: 3%;
     text-align: center;
+    padding:1.5%;
+}
+
+h2 {
+    font-family: 'Fauna One', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom:2%;
 }
 
 h3 {
     font-family: 'Fauna One', serif;
-    margin-top: 1%;
     font-size: 1em;
     font-weight: 300;
-    padding-top: 1%;
     text-align: left;
-    margin-left: 2%;
-}
-
-#slogan {
-    text-align: center;
+    padding: 1%;
 }
 
 img {
@@ -52,36 +57,32 @@ img {
 }
 
 footer {
-	font-size: .75em;
+    font-size: .75em;
     clear:both;
     padding-top: 1%;
 
 }
 
 footer a {
-	margin-left: 1%;
+    margin-left: 1%;
 }
 
+
 .logo {
-	width: 10em;
-	float:left;
-	margin-top:1%;
-	padding-left: 1%;
+    width: 15em;
+    float:left;
+    margin:1%
 }
 
 .designservices {
-    padding: 1%;
-}
-
-#services {
-    padding: .1%;
+    margin: .5%;
 }
 
 #services a {
 	float:left;
-	font-size: .75em;
-	margin: 1%;
-	width: 31.33%;
+	font-size: .9em;
+	margin: .5%;
+	width: 32.33%;
 	text-align: center;
 }
 
@@ -106,178 +107,313 @@ a:hover {
     height: 0;
 }
 
-#biancapic {
-    float:left;
-    width: 18%;
-    margin-left: 3%;
+
+
+
+#techpacks a{ 
+    text-align: left;
 }
 
-#biancabio {
-    float:left;
-    width: 64%;
-    margin-left:3%;
-    padding-top: 5%;
+#techpacks {
+    width:49%;
+    float: left;
+    height: 50em;
+    padding: 4%;
+    background-color: rgba(194,130,106,.3);
+    margin-left:.5%;
+    margin-bottom:1%;
 }
 
-#aboutbianca {
-    background-color: rgba(185,224,247,.3);
-    height: 30em;
-    clear:both;
-    margin: 1%;
+
+#wedding {
+    width:49%;
+    float:left;
+    height: 50em;
+    padding:4%;
+    background-color: rgba(115,131,118,.2);
+    margin-left: 1%;
 }
 
-#collections a{
-    margin-top:10%;
-    float:left;
-    font-size: .75em;
+#jessiedress {
+    float: left;
+    width: 75%;
     margin: 1%;
-    width: 31.33%;
-    margin-left:1%;
-}
-#artdeco a{
-    margin-top:10%;
-    float:left;
-    font-size: .75em;
-    margin: 1%;
-    width: 31.33%;
-    margin-left:1%;
+    padding-right: 2%;
+    padding-top:2%;
 }
 
-#montecarlo a{
-    margin-top:10%;
+#peplum {
     float:left;
-    font-size: .75em;
+    width: 75%;
     margin: 1%;
-    width: 31.33%;
-    margin-left:1%;
+    padding-right: 2%;
+    padding-top:2%;
 }
 
-#kyoto a{
-    margin-top:10%;
-    float:left;
-    font-size: .75em;
-    margin: 1%;
-    width: 31.33%;
-    margin-left:1%;
+#wrapper {
+    padding-top: 4%;
 }
 
 #patternshop a{
     float:left;
     font-size: .75em;
-    margin: 1%;
-    width: 18%;
-    margin-left:1%;
+    width: 19%;
+    margin:.5%;
 }
 
 #patternshop {  
-    background-color: rgba(105,97,128,.2);
-    margin-left: 1%;
-    margin-right: 1%;
+    background-color: rgba(105,97,128,.3);
+    margin:.5%;
     clear:both;
+    height: 50em;
+    padding: 4%;
+}
+
+#biancapic {
+    width: 18%;
+    padding-right:2%;
+    float: left;
+}
+
+#aboutbianca {
+    background-color: rgba(185,224,247,.3);
+    height: 40em;
+    clear:both;
+    margin-left:.5%;
+    margin-right:.5%;
+    margin-bottom:1%;
+    margin-top:1%;
+    padding: 4%;
+}
+
+
+#collections{
+    background-color: rgba(115,131,118,.2);
+    padding-top:4%;
+    padding-bottom:2%;
+    margin:.5%;
+}
+
+
+#artdeco a{
+    float:left;
+    font-size: .75em;
+    margin: 0%;
+    width: 20%;
+}
+
+
+#montecarlo a{
+   float:left;
+    font-size: .75em;
+    margin: 0%;
+    width: 20%;
+}
+
+
+#kyoto a{
+    float:left;
+    font-size: .75em;
+    margin: 0%;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 2100px) {
+
+nav {
+    padding-top:3.4%;
+}
+
+h1 {
+    font-size:1.2em;
+}
+#aboutbianca {
     height: 32em;
 }
-#techdesignservices {
-    margin-top:10%;
-    float:left;
-    font-size: .75em;
-    margin: 1%;
-    width: 20%;
-    margin-left:1%;
-}
 
-#peplum {
-    float:left;
-    width: 40%;
-    margin-left: 3%;
-    padding-top: 2em;
-}
-
-#techpacks a{
-    margin-top:10%;
-    float:left;
-    font-size: .75em;
-    margin: 1%;
-    width: 31.33%; 
-    text-align: left;
-}
-
-#techpacks {
-    width:48.5%;
-    float: left;
-    height: 25em;
-    padding-top: 1em;
-    background-color: rgba(194,130,106,.3);
-    margin-left:1%;
-}
-
-#techdesigndescription {
-    float:left;
-    width: 40%;
-    padding-top: 4%;
-    margin-top: 2%;
-    margin-left: 5%;
-    padding-right: 1%;
-}
-
-
-#wedding a{
-    margin-top:50%;
-    float:left;
-    font-size: .75em;
-    margin: 1%;
-    width: 50%; 
+#techpacks { 
+    height: 40em;
 }
 
 #wedding {
-    width:48.5%;
-    float:left;
-    height: 25em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: rgba(115,131,118,.2);
-    margin-left:1%;
-    margin-bottom: 1%;
+    height: 40em;
 }
 
-#jessiedress {
-    float:left;
-    width: 50%;
-    margin-left: 3%;
-    padding-top: 2em;
+#patternshop {
+    height: 40em;
+}
 }
 
-#customdresssescription {
-    float:left;
-    width: 40%;
-    padding-top: 4%;
-    margin-top: 2%;
-    margin-left: 5%;
-    padding-right: 1%;
+@media only screen and (max-width: 1636px) {
+
+nav {
+    padding-top:3.1%;
 }
+
+h1 {
+    font-size:1.1em;
+}
+#aboutbianca {
+    height: 24em;
+}
+
+#techpacks { 
+    height: 30em;
+}
+
+#wedding {
+    height: 30em;
+}
+
+#patternshop {
+    height: 30em;
+}
+
+#wrapper {
+    font-size:.85em;
+}
+#biancabio {
+    font-size:.85em;
+}
+
+h2 {
+    font-size:1em;
+}
+
+h3 {
+    font-size:.8em;
+}
+
+.logo {
+    width: 12em;
+    float:left;
+    margin:1%
+}
+}
+
+@media only screen and (max-width: 1500px) {
+
+nav {
+    padding-top:2.4%;
+}
+
+h1 {
+    font-size:1.1em;
+}
+#aboutbianca {
+    height: 20em;
+}
+
+#techpacks { 
+    height: 24em;
+}
+
+#wedding {
+    height: 24em;
+}
+
+#patternshop {
+    height: 24em;
+}
+
+#wrapper {
+    font-size:.7em;
+}
+
+#biancabio {
+    font-size:.7em;
+}
+
+header {
+    font-size:.8em;
+}
+
+h2 {
+    font-size:1em;
+}
+
+h3 {
+    font-size:.8em;
+}
+
+.logo {
+    width: 10em;
+    float:left;
+    margin:1%
+}
+#services {
+    font-size:.8em;
+}
+}
+
+
 
 @media only screen and (max-width: 1258px) {
  h1 {
-  font-size: 1em;
+  font-size: .9em;
  }
- .logo {
-    margin: auto;
-    width: 30%;
+
+ header {
     padding: 2%;
  }
-nav {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:2%;
+
+.logo {
+    width: 14em;
+    float:left;
+    margin:1%;
+    padding-top:2.5em;
 }
- nav a{
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+
+nav a {
     text-align:right;
-    font-size: .5em;
-    padding-right:2%;
+    font-size: .8em;
+    padding:.5em;
+    display:block;
  }
+
+ #aboutbianca {
+    height: 18em;
+}
+
+#techpacks { 
+    height: 20em;
+}
+
+#wedding {
+    height: 20em;
+}
+
+#patternshop {
+    height: 20em;
+}
+
+#wrapper {
+    font-size:.5em;
+}
+
+#biancabio {
+    font-size:.5em;
+}
+
+header {
+    font-size:.6em;
+}
+
+h2 {
+    font-size:.8em;
+}
+
+h3 {
+    font-size:.6em;
+}
+
+
+}
+#services {
+    font-size:.8em;
+}
+
  footer {
     margin-left: auto;
     margin-right: auto; 
@@ -286,18 +422,99 @@ nav {
  }
 }
 
+@media only screen and (max-width: 1000px) {
+ 
+ h1 {
+  font-size: .6em;
+ }
+
+ header {
+    padding: 2%;
+ }
+
+.logo {
+    width: 14em;
+    float:left;
+    margin:1%;
+    padding-top:2.5em;
+}
+
+nav a {
+    text-align:right;
+    font-size: .8em;
+    padding:.5em;
+    display:block;
+ }
+
+ #aboutbianca {
+    height: 18em;
+}
+
+#techpacks { 
+    height: 18em;
+}
+
+#wedding {
+    height: 18em;
+}
+
+#patternshop {
+    height: 18em;
+}
+
+#wrapper {
+    font-size:.5em;
+}
+
+#biancabio {
+    font-size:.5em;
+}
+
+header {
+    font-size:.6em;
+}
+
+h2 {
+    font-size:.6em;
+}
+
+h3 {
+    font-size:.4em;
+}
+
+#services {
+    font-size:.8em;
+}
+
+ footer {
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: .75em;
+    text-align: center;
+ }
+}
+
+
+
 @media only screen and (max-width: 400px) {
 
 body {
     color: #605A5B;
     font-family: 'Khula', sans-serif;
     font-weight: 300;
-    font-size: .5em;
+    font-size: .4em;
 }
 
+h2 {
+    padding-top:2%;
+}
+
+h3 {
+    font-size:.3em;
+}
 
 #services a{
-  font-size: ..25em;
+  font-size: .25em;
   float: none;
 }
 .logo {
@@ -319,27 +536,30 @@ nav {
     margin-right: auto; 
     text-align:right;
     font-size: .5em;
+    padding:.01em;
+ }
+
+ #slogan {
+    width:85%;
+    padding-left: 12%;
  }
 
 #techpacks {
     width:98%;
     float: none;
-    height: 23em;
-    padding-top: 1em;
+    height: 28em;
+    padding:2%;
     background-color: rgba(194,130,106,.3);
     margin-left:1%;
 }
 
-#wedding {
+#wedding{
     width:98%;
-    float:none;
-    height: 23em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    float: none;
+    height: 28em;
+    padding:2%;
     background-color: rgba(115,131,118,.2);
     margin-left:1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
 }
 
 #patternshop {
@@ -353,7 +573,7 @@ nav {
 
 #aboutbianca {
     background-color: rgba(185,224,247,.3);
-    height: 28em;
+    height: 30em;
     clear:both;
     margin:1%;
 }
@@ -378,13 +598,11 @@ nav {
     text-align:center;
     font-size: .75em;
  }
- h1 {
-  font-size: .5em;
- }
 
  .designservices {
-    padding: .1%; 
+    padding: 1%; 
  }
+
 .flats {
     padding: .1%;
  }
