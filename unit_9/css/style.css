@@ -87,7 +87,7 @@ footer {
     position: absolute;
     vertical-align: center;
     margin-top: 17%;
-    font-size: 3em;
+    font-size: 2.8em;
     background: rgba(255,255,255,.6);
     width: 32.33%;
 }
@@ -123,7 +123,7 @@ a:hover {
 #techpacks {
     width:49%;
     float: left;
-    padding: 4%;
+    padding: 4% 2% 4% 2%;
     background-color: rgba(212,63,39,.2);
     margin-left: 1%;
     margin-bottom:1%;
@@ -133,27 +133,25 @@ a:hover {
 #wedding {
     width:49%;
     float:left;
-    padding:4%;
+    padding: 4% 2% 4% 2%;
     background-color: rgba(58,109,85,.2);
     margin-left: .5%;
 }
 
 #shortsset {
     float: left;
-    width: 75%;
-    padding-right: 2%;
+    width: 60%;
+    padding-right:2%;
 }
 
 #jessiedress {
     float: left;
-    width: 75%;
-    padding-right: 2%;
+    width: 60%;
+    padding-right:2%;
 }
 
 
-#wrapper {
-    padding-top: 2%;
-}
+
 
 #patternshop {  
     background-color: rgba(244,208,55,.4);
@@ -212,6 +210,205 @@ a:hover {
     padding-bottom: 3%;
 }
 
+@media only screen and (max-width: 1700px) {
+
+body {
+    font-size: 1.1em;
+}
+
+#services p {
+    font-size: 2.6em;
+}
+
+nav {
+    font-size: 1.1em;
+    width: 100%;
+    padding: 2.3% 0% 0% 3%;
+}
+
+@media only screen and (max-width: 1480px) {
+
+nav {
+    font-size: 1.1em;
+    width: 100%;
+    padding: 2.3% 0% 0% 3%;
+}
+
+h1 {
+ font-size: 1.6em;
+}
+
+@media only screen and (max-width: 1480px) {
+
+nav {
+    font-size: 1.1em;
+    width: 100%;
+    padding: 2.3% 0% 0% 3%;
+}
+
+h1 {
+ font-size: 1.6em;
+}
+
+@media only screen and (max-width: 1200px) {
+
+body {
+    font-size: .9em;
+}
+
+h1 {
+ font-size: 1.4em;
+}
+
+#services p {
+ font-size: 2.2em;
+}
+
+#patternshop p{
+    margin-top: 21%;
+    font-size: .9em;
+}
+
+@media only screen and (max-width: 950px) {
+
+body {
+    font-size: .9em;
+}
+
+h1 {
+ font-size: 1.2em;
+}
+
+#services p {
+ font-size: 1.9em;
+}
+
+h2 {
+    font-size:1.6em;
+}
+
+@media only screen and (max-width: 800px) {
+
+body {
+    font-size: .8em;
+}
+
+h1 {
+ font-size: 1.1em;
+}
+
+#services p {
+ font-size: 1.6em;
+}
+
+h2 {
+    font-size:1.5em;
+}
+
+body {
+    font-size: .7em;
+}
+
+@media only screen and (max-width: 400px) {
+
+body {
+    font-size: .4em;
+}
+
+h1 {
+    font-size:2.4em;
+}
+h2 {
+    font-size:2.2em;
+    padding:4%;
+}
+
+h3 {
+    font-size:1.8em;
+    padding:4%;
+}
+
+#services a{
+  float: none;
+}
+
+.logo {
+    padding-top: 3%;
+}
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align:right;
+    font-size: .5em;
+ }
+
+#services p {
+    position: absolute;
+    vertical-align: center;
+    margin-top: 55%;
+    font-size: 3em;
+    background: rgba(255,255,255,.6);
+    width: 100%
+}
+
+#techpacks {
+    float: none;
+    width: 100%;
+    margin:.5%;
+}
+
+#wedding{
+    float: none;
+    width:100%;
+    margin:.5%;
+}
+
+#patternshop {
+    padding: 8%;
+}
+
+#patternshop a{
+    float:none;
+    font-size: 1em;
+    width: 80%;
+    margin: 1%;
+    border-style: none;
+    margin-top:.5%;
+   }
+
+#patternshop p {
+    position: absolute;
+    vertical-align: center;
+    margin-top: 98%;
+    font-size: 3em;
+    width: 85%
+}
+#aboutbianca {
+    clear:both;
+}
+
+ #kyoto a, #montecarlo a, #artdeco a{
+    float:none;
+    margin: 1% 0 1% 0;
+ }
+
+footer {
+    padding: 4% 10% 4% 10%;
+    background: rgba(44,41,104, .5);
+}
+#socialcontact a{
+    float:left;
+    width:20%;
+    margin: 2.5%;
+}
+}
 
 
 
