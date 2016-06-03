@@ -55,7 +55,7 @@ img {
 }
 
 footer {
-    margin:.5%;
+    margin: 1% .5% .5% .5%;
     padding: 4% 28% 4% 28%;
     background: rgba(44,41,104, .5);
 }
